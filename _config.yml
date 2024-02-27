@@ -1,5 +1,5 @@
-url: ''
-baseurl: ''
+url: 'https://gabrielbacha.github.io'
+baseurl: 'Jekyll-TailwindCSS'
 title: 'Jekyllwind'
 
 plugins:
