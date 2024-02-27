@@ -1,9 +1,13 @@
-url: 'https://gabrielbacha.github.io'
-baseurl: 'Jekyll-TailwindCSS'
-title: 'Jekyllwind'
+url: #'[PERSONAL GITHUB URL]'
+baseurl: # '[REPO-NAME]'
+title: 'Jekyll TailwindCSS'
 
 plugins:
   - jekyll-postcss
+  - jekyll-sitemap # Adds sitemap to the website at /sitemap.xml
+  - jekyll-feed # Adds feed to the website at /feed.xml
+  - jekyll-paginate # Used for sorting posts by page numbers.
+  - jekyll-seo-tag # Adds all the important SEO meta tags by default.
 
 postcss:
   cache: false
@@ -13,3 +17,14 @@ exclude:
   - postcss.config.js
   - tailwind.config.js
   - yarn.lock
+
+include:
+  - _pages
+
+
+sass:
+  sass_dir: /assets/css/_sass
+  style: compressed
+
+
+destination: zzz
