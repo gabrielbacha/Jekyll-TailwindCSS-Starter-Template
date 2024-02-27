@@ -15,7 +15,10 @@
 
 
 Sources:
+Used mixes of tweaks from the below sites
+
 - https://medium.com/on-web-development/use-jekyll-and-tailwind-css-354ea2320e92
 - https://github.com/mzrnsh/jekyllwind
+- https://mzrn.sh/2022/04/09/starting-a-blank-jekyll-site-with-tailwind-css-in-2022/
 - https://mzrn.sh/2023/10/26/how-to-use-tailwind-css-with-jekyll-on-github-pages/
 
