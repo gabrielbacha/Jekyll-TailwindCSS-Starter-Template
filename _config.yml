@@ -1,5 +1,5 @@
 url: https://gabrielbacha.github.io
-baseurl: Jekyll-TailwindCSS-Starter-Template
+baseurl: /Jekyll-TailwindCSS-Starter-Template
 title: 'Jekyll TailwindCSS'
 
 plugins:
