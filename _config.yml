@@ -17,6 +17,8 @@ exclude:
   - postcss.config.js
   - tailwind.config.js
   - yarn.lock
+  - .git
+  - vendor
 
 include:
   - _pages
@@ -28,3 +30,5 @@ sass:
 
 
 destination: zzz
+
+markdown: kramdown
