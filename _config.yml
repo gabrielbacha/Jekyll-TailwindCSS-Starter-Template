@@ -29,6 +29,6 @@ sass:
   style: compressed
 
 
-destination: zzz
+destination: _site
 
 markdown: kramdown
