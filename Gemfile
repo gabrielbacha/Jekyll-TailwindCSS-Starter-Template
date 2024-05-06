@@ -4,7 +4,7 @@ gem 'jekyll'
 # gem "github-pages", group: :jekyll_plugins
 
 gem 'webrick'
-gem 'jekyll-postcss'
+gem 'jekyll-postcss-v2'
 
 gem "jekyll-paginate"
 gem "jekyll-seo-tag"
