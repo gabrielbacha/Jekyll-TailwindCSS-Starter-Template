@@ -1,1 +1,1 @@
-Sitemap: http://0.0.0.0:4000/Jekyll-TailwindCSS-Starter-Template/sitemap.xml
+Sitemap: https://gabrielbacha.github.io/Jekyll-TailwindCSS-Starter-Template/sitemap.xml
