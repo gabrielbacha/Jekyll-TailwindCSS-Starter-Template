@@ -22,11 +22,9 @@ To deploy your site to GitHub Pages, follow these steps:
 1. Open `_config.yml`.
 2. Update `url: 'https://your-name.github.io'` with your GitHub Pages URL.
 3. Update `baseurl: 'your-repo-name'` with the name of your GitHub repository.
-4. Run `bundle lock --add-platform x86_64-linux` to add the Linux platform to the Gemfile.lock.
-5. Run `bundle lock --add-platform ruby` to add the Ruby platform to the Gemfile.lock.
-6. Push the changes to your GitHub repository.
-7. After the GitHub Actions workflow runs successfully, go to the GitHub Pages settings and deploy from the `gh-pages` branch.
-
+4. Run `bundle exec jekyll build`
+5. Run `npx gh-pages -d _site`
+6. Once published, go to the GitHub Pages settings and deploy from the `gh-pages` branch.
 
 Your site should be live at `https://your-name.github.io/your-repo-name`.
 
